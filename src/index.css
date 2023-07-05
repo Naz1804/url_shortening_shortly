@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.one {
+    margin-top: 1rem;
+}
+
+.two {
+    margin-top: 3rem;
+}
+
+.three {
+    margin-top: 5rem;
+}
+
+@media (max-width:640px) {
+    .one {
+        margin-top: 1rem;
+    }
+    
+    .two {
+        margin-top: 1rem;
+    }
+    
+    .three {
+        margin-top: 1rem;
+    }
+}
