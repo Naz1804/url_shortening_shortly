@@ -56,4 +56,12 @@ To know more about the API go on this `API documentation` _[link](https://shrtco
 
 ![image](https://github.com/Naz1804/url_shortening_shortly/assets/121124109/acfb41cd-6c27-45d8-8b06-eae580bfd35f)
 
-3. An if you look at the `Response` section we are using `"full_short_link"` to get our output when shortening a link and you can see on `api.js` how I exactly used that specific result.
+3. And if you look at the `Response` section we are using `"full_short_link"` to get our output when shortening a link and you can see on `api.js` how I exactly used that specific result.
+
+![image](https://github.com/Naz1804/url_shortening_shortly/assets/121124109/01c3364d-5767-44bc-bd18-7e86410a890d)
+
+As you can see on the response variable we are calling the api url and the `{encodeURIComponent(url)}` is the user input.
+
+Which then the destructer of `{ result }` will get the `response.data`. Reason why we are using `{ result }` because thats how we access the full_short_link if you look at the previos image `Response` section.
+
+Then return `result.full_short_link` or nothing if the user do not give a valid url.
