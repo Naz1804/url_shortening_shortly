@@ -14,7 +14,7 @@ First thing first is you need `node.js` installed. USe this _[Link](https://node
 
 1. Then you can clone the code locally by copying the `HTTPS` from the `<> Code` button.
 
-![image](https://github.com/Naz1804/todolist/assets/121124109/220ab00c-5734-43c9-9592-9b408d66972d)
+![image](https://github.com/Naz1804/url_shortening_shortly/assets/121124109/88d634c1-da23-4311-b5b5-5038c4b12047)
 
 2. Open a terminal window or open your code editor that you can open up a terminal.
 3. Navigate to the directory where you want to clone the repository.
