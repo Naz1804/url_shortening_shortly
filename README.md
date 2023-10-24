@@ -49,11 +49,3 @@ Then you should have the project running !!
 
 # API
 To know more about the API go on this `API documentation` _[link](https://tinyurl.com/app/dev)_. Also go to `src` then `api.js` and you will see how I added the api.
-
-![image](https://github.com/Naz1804/url_shortening_shortly/assets/121124109/01c3364d-5767-44bc-bd18-7e86410a890d)
-
-As you can see on the response variable we are calling the api url and the `{encodeURIComponent(url)}` is the user input.
-
-Which then the destructer of `{ result }` will get the `response.data`. Reason why we are using `{ result }` because thats how we access the full_short_link if you look at the previos image `Response` section.
-
-Then return `result.full_short_link` or nothing if the user do not give a valid url.
