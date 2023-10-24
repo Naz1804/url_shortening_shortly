@@ -41,24 +41,14 @@ Next you will see this:
 
 ![image](https://github.com/Naz1804/todolist/assets/121124109/10254502-15b6-43a2-b1dc-ede50c3cd804)
 
-You have two options to either click on the `http://localhost:5173/` or press `o` to open up the `localhost`.
+You have two options to either `ctrl` + click on the `http://localhost:5173/` or press `o` to open up the `localhost`.
 
 You can always press `h` to see what more commands they are.
 
 Then you should have the project running !!
 
 # API
-To know more about the API go on this `API documentation` _[link](https://shrtco.de/)_. Also go to `src` then `api.js` and you will see how I added the api.
-
-1. When you go to the API documentation you click onto the `Developer API` and you will how to use the API.
-
-![image](https://github.com/Naz1804/url_shortening_shortly/assets/121124109/98ff35a8-49ea-4aaf-8036-dfd6ba7c845b)
-
-2. Then you can go down to part where it talks about shortening a link.
-
-![image](https://github.com/Naz1804/url_shortening_shortly/assets/121124109/acfb41cd-6c27-45d8-8b06-eae580bfd35f)
-
-3. And if you look at the `Response` section we are using `"full_short_link"` to get our output when shortening a link and you can see on `api.js` how I exactly used that specific result.
+To know more about the API go on this `API documentation` _[link](https://tinyurl.com/app/dev)_. Also go to `src` then `api.js` and you will see how I added the api.
 
 ![image](https://github.com/Naz1804/url_shortening_shortly/assets/121124109/01c3364d-5767-44bc-bd18-7e86410a890d)
 
