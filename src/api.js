@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const shortenLink = async (url) => {
   try {
-    const response = await axios.get(`http://tinyurl.com/api-create.php?url=${encodeURIComponent(url)}`);
+    const response = await axios.get(`https://tinyurl.com/api-create.php?url=${encodeURIComponent(url)}`);
     const shortLink = response.data;
     return shortLink || '';
   } catch (error) {
