@@ -1,11 +1,11 @@
 
 export default function List({links, copyToClipboard}) {
     const truncateLink = (link) => {
-        const maxLength = 42
+        const maxLength = 25
         if (link.length <= maxLength) {
           return link;
         }
-        return link.substring(0, maxLength) + ' ...';
+        return link.substring(0, maxLength) + '....';
     }
    
     return (
@@ -20,6 +20,11 @@ export default function List({links, copyToClipboard}) {
                        <button onClick={() => copyToClipboard(link)} 
                        className={`${link.isCopied ? "bg-dark-blue" : "bg-cyan"} text-white px-6 py-2 rounded-lg text-sm md:ml-4 hover:opacity-75`}
                        >{link.isCopied ? "Copied!" : "Copy"}</button>
+
+                       <a href={`https://shorturl-api-w0c5.onrender.com/api/stats/${link.shortCode}`}
+                       target="_blank" rel="noopener noreferrer" className="text-dark-blue text-xs underline hover:opacity-75">
+                          View Stats
+                       </a>
                    </div>
                 </div>
             ))}

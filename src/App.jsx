@@ -15,10 +15,11 @@ function App() {
 
     const handleShorten = async () => {
         try {
-            const shortLink = await shortenLink(originalLink)
+            const result = await shortenLink(originalLink)
             const newLink = {
                 original: originalLink,
-                shortened: shortLink,
+                shortened: result.shortUrl,
+                shortCode: result.shortCode,
                 isCopied: false
             }
             setLinks(prev => [...prev, newLink])
